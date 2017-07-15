@@ -53,7 +53,7 @@ app.get('/', function(req, res) {
                  os: os.type(),
                  nodeversion: process.version,
                  time: new Date(),
-                 admin: (process.env.APP_ADMIN_EMAIL || "admin@unconfigured-value.com" ),
+                 admin: (process.env.APP_ADMIN_EMAIL || "admin@dario.com" ),
                  comments: get_comments()
                });
 });
